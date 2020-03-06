@@ -1,0 +1,21 @@
+$color:white;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800|Open+Sans&display=swap');
+.grid {
+    display: grid;
+    grid-template-rows: 10vh;
+    font-family: 'Montserrat', sans-serif;
+    grid-template-areas: "a a a";
+    font-size: 1.8em;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.item-menu {
+    justify-content: space-evenly;
+    padding-top: 0.5em;
+    text-decoration: none;
+    color: $color;
+}
